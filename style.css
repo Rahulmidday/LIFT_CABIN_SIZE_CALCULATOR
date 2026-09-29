@@ -117,9 +117,10 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 22px 20px;
-  position: sticky; top: 16px;
 }
-@media (max-width: 920px) { .inputs { position: static; } }
+.side { position: sticky; top: 16px; }
+.credit { margin: 12px 4px 0; color: var(--muted); font-size: .875rem; }
+@media (max-width: 920px) { .side { position: static; } }
 
 h2 {
   margin: 0 0 14px;
